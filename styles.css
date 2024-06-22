@@ -3,6 +3,25 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+@media screen and (max-width:767px){
+    .container{ max-width: 767px;
+    }
+    .menu{
+        display:none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+    .conteiner{
+        min-width: 768px;
+        max-width: 1023px;
+    }
+}
+
 
 img {
     display: block;
@@ -22,50 +41,12 @@ p {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-@media (max-width:320px) and (min-width:768px){
-    /* Скрываем чекбокс */
-        .toggle-input {
-            display: none;
-        }
-    
-        /* Стиль для кнопки */
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            text-align: center;
-            cursor: pointer;
-            border-radius: 5px;
-            margin: 10px 0;
-            user-select: none;
-        }
-    
-        /* Изначально скрываем страницу */
-        .hidden {
-            display: none;
-        }
-    
-        /* Показываем страницу, когда чекбокс отмечен */
-        .toggle-input:checked+.button+.hidden {
-            display: block;
-            padding: 20px;
-            background-color: #f0f0f0;
-            border: 1px solid #ccc;
-            margin-top: 20px;
-        }
-}
 .header-info {
     display: flex;
     align-items: center;
 }
 
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
 
-}
 
 .header-navigation {
     display: flex;
