@@ -660,6 +660,13 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
 
 }
+:root {
+    --checked-bg-color: #404bbf;
+}
+
+#user-privacy:checked~.omagad-much-divs-label .span-enjoyer {
+    background-color: var(--checked-bg-color);
+}
 .omagad-much-divs-input:checked .span-enjoyer{
     background-color: var(#404bbf);
     border: none;
