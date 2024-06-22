@@ -617,7 +617,7 @@ placeholder {
 }
 
 .omagad-much-divs-input:focus + .omagad-svg-icon{
-    fill: #4D5AE5;
+    fill: #4D5AE5 !important;
 }
 .special-modal-div{
     margin-bottom: 16px;
