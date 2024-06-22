@@ -615,6 +615,18 @@ placeholder {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+:root {
+    --focus-fill-color: #4D5AE5;
+}
+
+.second-div use {
+    fill: none;
+}
+
+
+.second-div-input:focus+.second-div use {
+    fill: var(--focus-fill-color);
+}
 .second-div-input:focus .second-div{
     fill: #4D5AE5;
 }
