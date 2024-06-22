@@ -616,7 +616,7 @@ placeholder {
 
 }
 
-.omagad-much-divs-input:focus .second-div{
+.omagad-much-divs-input:focus +.second-div{
     fill: #4D5AE5;
 }
 .special-modal-div{
