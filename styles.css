@@ -23,34 +23,37 @@ p {
 }
 
 @media (max-width:320px) and (min-width:768px){
-
-#togglePageButton {
-    display: none;
-}
-
-#page {
-    display: none;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-}
-
-#togglePageButton:checked~#page {
-    display: block;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: 10px 0;
-    user-select: none;
-}
+    /* Скрываем чекбокс */
+        .toggle-input {
+            display: none;
+        }
+    
+        /* Стиль для кнопки */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: 10px 0;
+            user-select: none;
+        }
+    
+        /* Изначально скрываем страницу */
+        .hidden {
+            display: none;
+        }
+    
+        /* Показываем страницу, когда чекбокс отмечен */
+        .toggle-input:checked+.button+.hidden {
+            display: block;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
 }
 .header-info {
     display: flex;
