@@ -624,7 +624,7 @@ placeholder {
 }
 .second-div:hover + .second-div-use,
 .second-div:focus + .second-div-use{
-    fill: #4d5ae5;
+    fill: #4d5ae5 !important;
 }
 
 .second-div-input:focus+.second-div use {
