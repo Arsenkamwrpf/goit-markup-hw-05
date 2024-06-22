@@ -615,7 +615,7 @@ placeholder {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.second-div-input:hover + .second-div{
+.second-div-input:focus + .second-div{
     fill: #4D5AE5;
 }
 .omagad-much-divs-input:focus+.omagad-svg-icon{
