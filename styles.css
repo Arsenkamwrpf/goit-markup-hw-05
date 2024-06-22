@@ -712,12 +712,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .modal-button{
+    margin: 0 auto;
     position: absolute;
     top: 24px;
     right: 24px;
     width: 24px;
     height: 24px;
-    border-radius: 50%;
+    border-radius: 50% !important;
     display: flex;
     text-align: center;
     align-items: center;
