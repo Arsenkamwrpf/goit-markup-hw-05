@@ -639,10 +639,10 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .textarea-div:focus{
     border-color: #4D5AE5;
 }
-.omagad-to-much-divs{
+.omagad-much-divs{
     margin-bottom: 24px;
 }
-.omagad-to-much-divs-label{
+.omagad-much-divs-label{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -660,7 +660,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
 
 }
-.omagad-to-much-divs-input:checked .span-enjoyer{
+.omagad-much-divs-input:checked .span-enjoyer{
     background-color: var(#404bbf);
     border: none;
     fill:var(#f4f4fd);
