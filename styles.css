@@ -622,7 +622,6 @@ placeholder {
 .second-div use {
     fill: none;
 }
-.second-div:hover + .second-div-use,
 .second-div:focus + .second-div-use{
     fill: #4d5ae5 !important;
 }
@@ -630,7 +629,7 @@ placeholder {
 .second-div-input:focus+.second-div use {
     fill: var(--focus-fill-color);
 }
-.second-div-input:focus .second-div{
+.omagad-much-divs-input:focus .second-div{
     fill: #4D5AE5;
 }
 .special-modal-div{
